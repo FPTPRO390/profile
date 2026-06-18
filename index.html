@@ -1,1 +1,156 @@
-ชยานันท์ เฟื่องนคร 
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรไฟล์ - ชยานันท์ เฟื่องนคร</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Prompt';
+        }
+
+        body {
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .header-bg {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            height: 120px;
+        }
+
+        .avatar-container {
+            margin-top: -65px;
+            position: relative;
+        }
+
+        .avatar {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-body {
+            padding: 25px 30px 35px 30px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 5px;
+        }
+
+        .student-id {
+            font-size: 16px;
+            color: #2a5298;
+            font-weight: 600;
+            background: #e8f0fe;
+            display: inline-block;
+            padding: 4px 15px;
+            border-radius: 50px;
+            margin-bottom: 25px;
+        }
+
+        .info-section {
+            text-align: left;
+            border-top: 1px solid #eeeeee;
+            padding-top: 20px;
+        }
+
+        .info-item {
+            display: flex;
+            margin-bottom: 15px;
+            align-items: center;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #666666;
+            width: 100px;
+            flex-shrink: 0;
+            font-size: 14px;
+        }
+
+        .info-value {
+            color: #333333;
+            font-size: 15px;
+            word-break: break-word;
+        }
+
+        a.info-value {
+            color: #1e3c72;
+            text-decoration: none;
+        }
+
+        a.info-value:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="header-bg"></div>
+        
+        <div class="avatar-container">
+            <img class="avatar" src="https://cdn.discordapp.com/attachments/1517056716531826778/1517057911455748126/received_1627766601940176.jpg?ex=6a34e5c7&is=6a339447&hm=aa8e8512bf25e11cfe482a59f9f74cfa17b38a23332217d6e5de277ab1d047e3&" alt="รูปโปรไฟล์ ชยานันท์ เฟื่องนคร">
+        </div>
+
+        <div class="profile-body">
+            <div class="name">ชยานันท์ เฟื่องนคร</div>
+            <div class="student-id">รหัสนักศึกษา: 694245002</div>
+
+            <div class="info-section">
+                <div class="info-item">
+                    <span class="info-label">สาขาวิชา</span>
+                    <span class="info-value">วิทยาการคอมพิวเตอร์</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">คณะ</span>
+                    <span class="info-value">วิทยาศาสตร์และเทคโนโลยี</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">มหาวิทยาลัย</span>
+                    <span class="info-value">มหาวิทยาลัยราชภัฏหมู่บ้านจอมบึง</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">เบอร์โทรศัพท์</span>
+                    <a href="tel:0924894326" class="info-value">092-489-4326</a>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">อีเมล</span>
+                    <a href="mailto:694245002@mcru.ac.th" class="info-value">694245002@mcru.ac.th</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
